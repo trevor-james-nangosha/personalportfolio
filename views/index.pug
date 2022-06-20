@@ -6,14 +6,14 @@ head
   meta(name='author' content='')
   title TREVORJAMESNANGOSHA- Welcome
   // Favicon
-  link(rel='icon' type='image/x-icon' href='assets/favicon.ico')
+  link(rel='icon' type='image/x-icon' href='/assets/favicon.ico')
   // Font Awesome icons (free version)
   script(src='https://use.fontawesome.com/releases/v6.1.0/js/all.js' crossorigin='anonymous')
   // Google fonts
   link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
   link(href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css')
   // Core theme CSS (includes Bootstrap)
-  link(href='css/styles.css' rel='stylesheet')
+  link(href='/css/styles.css' rel='stylesheet')
 // Navigation
 nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
   .container
@@ -33,7 +33,8 @@ nav#mainNav.navbar.navbar-expand-lg.bg-secondary.text-uppercase.fixed-top
 header.masthead.bg-primary.text-white.text-center
   .container.d-flex.align-items-center.flex-column
     // Masthead Avatar Image
-    img.masthead-avatar.mb-5(src='assets/img/avataaars.svg' alt='...')
+    //- img.masthead-avatar.mb-5(src='assets/img/avataaars.svg' alt='...')
+    img.masthead-avatar.mb-5(src='/assets/img/avataaars.svg' alt='...')
     // Masthead Heading
     h1.masthead-heading.text-uppercase.mb-0 trevorjamesnangosha
     // Icon Divider
@@ -63,42 +64,42 @@ section#portfolio.page-section.portfolio
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='assets/img/portfolio/cabin.png' alt='...')
+          img.img-fluid(src='/assets/img/portfolio/cabin.png' alt='...')
       // Portfolio Item 2
       .col-md-6.col-lg-4.mb-5
         .portfolio-item.mx-auto(data-bs-toggle='modal' data-bs-target='#portfolioModal2')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='assets/img/portfolio/cake.png' alt='...')
+          img.img-fluid(src='/assets/img/portfolio/cake.png' alt='...')
       // Portfolio Item 3
       .col-md-6.col-lg-4.mb-5
         .portfolio-item.mx-auto(data-bs-toggle='modal' data-bs-target='#portfolioModal3')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='assets/img/portfolio/circus.png' alt='...')
+          img.img-fluid(src='/assets/img/portfolio/circus.png' alt='...')
       // Portfolio Item 4
       .col-md-6.col-lg-4.mb-5.mb-lg-0
         .portfolio-item.mx-auto(data-bs-toggle='modal' data-bs-target='#portfolioModal4')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='assets/img/portfolio/game.png' alt='...')
+          img.img-fluid(src='/assets/img/portfolio/game.png' alt='...')
       // Portfolio Item 5
       .col-md-6.col-lg-4.mb-5.mb-md-0
         .portfolio-item.mx-auto(data-bs-toggle='modal' data-bs-target='#portfolioModal5')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='assets/img/portfolio/safe.png' alt='...')
+          img.img-fluid(src='/assets/img/portfolio/safe.png' alt='...')
       // Portfolio Item 6
       .col-md-6.col-lg-4
         .portfolio-item.mx-auto(data-bs-toggle='modal' data-bs-target='#portfolioModal6')
           .portfolio-item-caption.d-flex.align-items-center.justify-content-center.h-100.w-100
             .portfolio-item-caption-content.text-center.text-white
               i.fas.fa-plus.fa-3x
-          img.img-fluid(src='assets/img/portfolio/submarine.png' alt='...')
+          img.img-fluid(src='/assets/img/portfolio/submarine.png' alt='...')
 // About Section
 section#about.page-section.bg-primary.text-white.mb-0
   .container
@@ -383,7 +384,7 @@ footer.footer.text-center
 // Bootstrap core JS
 script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
 // Core theme JS
-script(src='js/scripts.js')
+script(src='/js/scripts.js')
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 // * *                               SB Forms JS                               * *
 // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
