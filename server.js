@@ -3,9 +3,6 @@ const { urlencoded, json } = require("express")
 const express = require("express")
 const path = require("path")
 
-//TODO
-// Stop git from tracking the .env file.
-
 const app = express()
 const PORT = process.env.SERVER_PORT || 3000
 
